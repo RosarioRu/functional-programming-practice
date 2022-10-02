@@ -12,6 +12,10 @@ export default function recursiveRoman(number) {
     }
   }
   if (number>=500) {
-    //code
+    if (number-500 === 0) {
+      return ("D");
+    } else {
+    return ((recursiveRoman(number-500)) + "D");
+    }
   } 
 };

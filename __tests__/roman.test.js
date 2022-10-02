@@ -29,5 +29,11 @@ describe('recursiveRoman', () => {
     expect(recursiveRoman(2000)).toEqual("MM");
   });
 
+  test("should return 'D' when the number passed into function is 500", () => {
+    expect(recursiveRoman(500)).toEqual("D");
+  });
+
+  
+
 
 });
