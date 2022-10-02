@@ -20,5 +20,14 @@ describe('recursiveRoman', () => {
     expect(recursiveRoman(4000)).toEqual("Not a valid number; please enter a number between 1-3,999");
   });
 
+  test("should return 'M' when the number passed into the function is 1000", () => {
+    expect(recursiveRoman(1000)).toEqual("M");
+  });
+
+  //to get 100% line coverage, also checking branch where the number is 2,000:
+  test("should return 'MM' when the number passed into the function is 2000", () => {
+    expect(recursiveRoman(2000)).toEqual("MM");
+  });
+
 
 });
