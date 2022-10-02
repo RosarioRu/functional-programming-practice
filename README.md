@@ -2,7 +2,7 @@
 
 #### By _**Rosario Ruvalcaba**_
 
-#### _SHORT DESCRIPTION._
+#### _Repo for practicing functional programming concepts._
 
 ## Technologies Used
 
@@ -15,19 +15,19 @@
 
 ## Description
 
-_._
+_Practicing currying, recursion and closures._
 
 ## Setup/Installation Requirements
 
 * _Clone repository from Github and save a copy on own computer_
 
-* _Using GUI or terminal, open cloned project directory (titled 'UPDATE') to view files_
+* _Using GUI or terminal, open cloned project directory (titled 'roman-numberals') to view files_
 
 * _Using GUI or terminal, open index.html file to view project locally_
 
 * _Stylesheet, image, js file, and readme can also be opened from project home directory_
 
-* _(See Github page for this project](https://rosarioru.github.io/UPDATE/)_
+* _(See Github page for this project](https://rosarioru.github.io/roman-numerals/)_
 
 ## Known Bugs
 
@@ -37,4 +37,4 @@ _._
 
 MIT License
 
-Copyright (c) _May_2022_ _Rosario Ruvalcaba Harwood_
+Copyright (c) _Oct_2022_ _Rosario Ruvalcaba Harwood_
