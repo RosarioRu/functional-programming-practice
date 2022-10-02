@@ -33,7 +33,22 @@ describe('recursiveRoman', () => {
     expect(recursiveRoman(500)).toEqual("D");
   });
 
-  
+  test("should return 'C' when the number passed into function is 100", () => {
+    expect(recursiveRoman(100)).toEqual("C");
+  });
+
+  test("should return 'CC' when the number passed into function is 200", () => {
+    expect(recursiveRoman(200)).toEqual("CC");
+  });
+
+  //below should give 100% line coverage as this will cover the second branch for Cs and Ds.
+  test("should return 'DC' when the number passed into function is 600", () => {
+    expect(recursiveRoman(600)).toEqual("DC");
+  });
+
+  test("should return 'MD' when the number passed into function is 1500", () => {
+    expect(recursiveRoman(1500)).toEqual("MD");
+  });
 
 
 });
